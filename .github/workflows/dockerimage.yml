@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag abook:v0.1 addressbook:v0.2
+      run: docker build . --file Dockerfile --tag addressbook:v0.2
     - name: Docker credential
       run: docker login --username=sandesh2026 --email=sandeshs@devtools.in --password=DreamGoal#2030
     - name: docker push
