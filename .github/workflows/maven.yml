@@ -25,6 +25,14 @@ jobs:
       run : cat new.txt
     - name : git push
       run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
+    - name : change directory
+      run : cd /home
+    - name : update
+      run : apt-get update
+    - name : install docker
+      run : apt-get install docker-ce docker-ce-cli containerd.io
+    - name : test
+      run : docker run hello-world
     
   
       
