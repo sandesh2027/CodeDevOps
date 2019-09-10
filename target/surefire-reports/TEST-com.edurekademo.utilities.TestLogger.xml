@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.051"/>
-  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.044"/>
-  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.04"/>
-  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.04"/>
-  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.045"/>
+  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.051"/>
+  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.023"/>
+  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.03"/>
+  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.019"/>
+  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.017"/>
 </testsuite>
