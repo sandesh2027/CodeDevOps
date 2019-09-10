@@ -19,7 +19,7 @@ jobs:
       run : git config --global user.email "sandesh.1rn14ec126@gmail.com" && git config --global user.name "sandesh2027"
     - name : copy 
       run : cp /home/runner/work/DevOpsClassCodes/DevOpsClassCodes/target/addressbook.war .
-    - name : git add and commit
+    - name : git add and commit with
       run : git add . && git commit -m "commit msg"
     - name : git push
       run : git push https://sandesh2027:2c6e85bad8857d93b05bb726f07254c951b8536c@github.com/sandesh2027/DevOpsClassCodes.git
