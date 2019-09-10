@@ -15,5 +15,5 @@ jobs:
     - name: Docker credential
       run: docker login docker.io --username=sandesh2026 --password=DreamGoal#2030
     - name: docker push
-      run: docker push sandesh2026/addressbook:v0.2
+      run: docker push addressbook:v0.2
       
