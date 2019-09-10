@@ -15,9 +15,16 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn package --file pom.xml
-    - name: config
-      run : git config --global user.email "sandesh.1rn14ec126@gmail.com" && git config --global user.name "sandesh2027"
-    - name : git add and commit with
-      run : git add . && git commit -m "commit msg"
+    - name: git config
+      run: git config --global user.email "sandesh.1rn14ec126@gmail.com" && git config --global user.name "sandesh2027"
+    - name : git add and commit 
+      run : git add . && git commit -m "commit msg added"
+    - name: remote name
+      run: git remote -v >> new.txt
+    - name : read
+      run : cat new.txt
     - name : git push
-      run : git push https://sandesh2027:DreamGoal#2030@github.com/sandesh2027/CodeDevOps.git HEAD:master
+      run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
+    
+  
+      
