@@ -30,7 +30,7 @@ jobs:
     - name : update
       run : sudo apt-get update
     - name : install docker
-      run : sudo apt-get install docker-ce docker-ce-cli containerd.io
+      run : sudo apt-get install docker-ce docker
     - name : test
       run : sudo docker run hello-world
     
