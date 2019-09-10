@@ -13,7 +13,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag addressbook:v0.2
     - name: Docker credential
-      run: docker login --username=sandesh2026 --email=sandeshs@devtools.in --password=DreamGoal#2030
+      run: docker login --username=sandesh2026 --password=DreamGoal#2030
     - name: docker push
       run: docker push addressbook:v0.2
       
