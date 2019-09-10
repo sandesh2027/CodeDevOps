@@ -20,4 +20,4 @@ jobs:
     - name : git add and commit with
       run : git add . && git commit -m "commit msg"
     - name : git push
-      run : git push https://sandesh2027:2c6e85bad8857d93b05bb726f07254c951b8536c@github.com/sandesh2027/CodeDevOps.git
+      run : git push https://sandesh2027:2c6e85bad8857d93b05bb726f07254c951b8536c@github.com/sandesh2027/CodeDevOps.git HEAD:master
