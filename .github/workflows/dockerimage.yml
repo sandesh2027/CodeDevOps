@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag abook:$(date +%s)
+      run: docker build . --file Dockerfile --tag abook:v0.1
     - name: Docker run
-      run: docker run -p 8080:8081 --name addressbook abook
+      run: docker run -p 8080:8081 --name addressbook abook:v0.1
