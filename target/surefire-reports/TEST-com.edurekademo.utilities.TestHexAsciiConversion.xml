@@ -61,6 +61,6 @@
   </properties>
   <testcase name="testHexToAsciiValid" classname="com.edurekademo.utilities.TestHexAsciiConversion" time="0.003"/>
   <testcase name="testAsciiToHexNull" classname="com.edurekademo.utilities.TestHexAsciiConversion" time="0"/>
+  <testcase name="testAsciiToHexValid" classname="com.edurekademo.utilities.TestHexAsciiConversion" time="0.001"/>
   <testcase name="testHextoAsciiNull" classname="com.edurekademo.utilities.TestHexAsciiConversion" time="0"/>
-  <testcase name="testAsciiToHexValid" classname="com.edurekademo.utilities.TestHexAsciiConversion" time="0"/>
 </testsuite>
