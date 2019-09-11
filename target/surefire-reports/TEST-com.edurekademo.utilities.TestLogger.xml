@@ -60,8 +60,8 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.054"/>
-  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.027"/>
-  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.013"/>
-  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.015"/>
-  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.011"/>
+  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.013"/>
+  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.003"/>
+  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0"/>
+  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.001"/>
 </testsuite>
