@@ -21,9 +21,9 @@ jobs:
       run : git add . && git commit -m "commit msg added"
     - name: remote name
       run: git remote -v >> new.txt
-    - name : read
+    - name : display
       run : cat new.txt
-    - name : git push
+    - name : git push 
       run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
     - name : deploy
       run : curl -T "target/addressbook.war" "http://sandesh:123456@97a7efd3.ngrok.io/manager/text/deploy?path=/addressbook&update=true"
