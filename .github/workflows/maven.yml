@@ -21,7 +21,7 @@ jobs:
       run : git add . && git commit -m "commit msg added"
     - name: remote name
       run: git remote -v >> new.txt
-    - name : display
+    - name : read
       run : cat new.txt
     - name : git push 
       run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
