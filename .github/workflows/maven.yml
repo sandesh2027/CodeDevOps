@@ -26,7 +26,7 @@ jobs:
     - name : read
       run : cat new.txt
     - name : git push 
-      run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
+      run : git push https://sandesh2027:${{secrets.SANDESH}}@github.com/sandesh2027/CodeDevOps/ HEAD:master
     - name : deploy
       run : curl -T "target/addressbook.war" "http://sandesh:123456@97a7efd3.ngrok.io/manager/text/deploy?path=/addressbook&update=true"
     - name : change directory
