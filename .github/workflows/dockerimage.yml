@@ -14,7 +14,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sandesh2026/addressbook:v0.2
     - name: Docker credential
-      run: docker login docker.io --username=sandesh2026 --password=DreamGoal#2030
+      run: docker login docker.io --username=sandesh2026 --password=${{secrets.DOCKERHUB}}
     - name: docker push
       run: docker push sandesh2026/addressbook:v0.2
       
