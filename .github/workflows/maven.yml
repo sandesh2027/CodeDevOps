@@ -2,7 +2,7 @@ name: Java CI
 
 on:
   schedule:
-  - cron: * * * * *
+  - cron: 8 23 28 * 0
 
 jobs:
   build:
