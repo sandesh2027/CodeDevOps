@@ -17,4 +17,3 @@ jobs:
       run: docker login --username sandesh2026 --password ${secret.DOCKERHUB} 
     - name: docker push
       run: docker push sandesh2026/addressbook:v0.2
-      
