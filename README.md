@@ -1,3 +1,4 @@
+![Java CI](https://github.com/sandesh2027/CodeDevOps/workflows/Java%20CI/badge.svg)
 ![Docker Image CI](https://github.com/sandesh2027/CodeDevOps/workflows/Docker%20Image%20CI/badge.svg)
 
 
