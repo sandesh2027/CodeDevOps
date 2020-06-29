@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag sandesh2026/addressbook:v0.3
+      run: docker build . --file Dockerfile --tag sandesh2026/addressbook:v0.4
     - name: Docker credential
       run: docker login docker.io --username=sandesh2026 --password=${{secrets.DOCKERHUB}} 
     - name: docker push
-      run: docker push sandesh2026/addressbook:v0.3
+      run: docker push sandesh2026/addressbook:v0.4
