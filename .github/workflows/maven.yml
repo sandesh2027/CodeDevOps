@@ -33,5 +33,3 @@ jobs:
       run : sudo apt-get update
     - name : install docker
       run : sudo apt-get install docker
-    - name : test
-      run : sudo docker run hello-world  
