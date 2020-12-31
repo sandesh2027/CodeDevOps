@@ -18,4 +18,4 @@ jobs:
     - name: Docker credential
       run: docker login docker.io --username=sandesh2026 --password=${{secrets.DOCKERHUB}} 
     - name: docker push
-      run: docker push sandesh2026/addressbook:v0.4
+      run: docker push sandesh2026/addressbook:v0.5
