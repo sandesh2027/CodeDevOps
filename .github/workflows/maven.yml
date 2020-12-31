@@ -27,7 +27,7 @@ jobs:
     - name : read
       run : cat new.txt
     - name : git push 
-      run : git push https://sandesh2027:${{secrets.SANDESH}}@github.com/sandesh2027/CodeDevOps/ HEAD:master
+      run : git push https://sandesh2027:${{secrets.SANDESH}}@github.com/sandesh2027/CodeDevOps/ HEAD:non-prod
     - name : deploy
       run : curl -T "target/addressbook.war" "http://sandesh:${{secrets.TOMCAT}}@f21ee0036e00.ngrok.io/manager/text/deploy?path=/addressbook-nonprod&update=true"
     - name : change directory
